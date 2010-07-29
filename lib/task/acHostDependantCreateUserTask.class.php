@@ -73,7 +73,7 @@ EOF;
       $settings_all['project_db_name'] = $project_db_name;
       $settings_all['project_db_username'] = $project_db_username;
       $settings_all['project_db_password'] = $project_db_password;
-      $settings_all['private_upload_dir'] = $uploads_dir;
+      $settings_all['private_upload_dir'] = str_replace(sfConfig::get('sf_root_dir'), '%sf_root_dir%', $uploads_dir);
       $settings_all['upload_files_dir_name'] = "files";
 
       $settings['all'] = $settings_all;
