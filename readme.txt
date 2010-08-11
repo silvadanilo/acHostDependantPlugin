@@ -17,3 +17,5 @@ all:
 
  
 l'oggetto myUser deve ereditare da acHostDependatGuardSecurityUser invece che da sfGuardSecurityUser
+
+sorry ancora prova
